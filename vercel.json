@@ -1,8 +1,6 @@
 {
 	"functions": {
-		"./index.js": {
-			"runtime": "vercel-node@18.x"
-		}
+		"./index.js": {}
 	},
 	"installCommand": "npm install",
 	"public": false,

@@ -1,7 +1,4 @@
 {
-	"functions": {
-		"./index.js": {}
-	},
 	"installCommand": "npm install",
 	"public": false,
 	"regions": ["sin1"],

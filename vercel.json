@@ -1,15 +1,14 @@
 {
-   "builds": [
-      {
-         "src": "./index.js",
-         "use": "@vercel/node"
-      }
-   ],
-   "installCommand": "npm install",
-   "public": false,
-   "regions": ["sin1"],
-   "trailingSlash": false,
-   "github": {
-      "silent": true
-   }
+	"functions": {
+		"./index.js": {
+			"runtime": "@vercel/node"
+		}
+	},
+	"installCommand": "npm install",
+	"public": false,
+	"regions": ["sin1"],
+	"trailingSlash": false,
+	"github": {
+		"silent": true
+	}
 }

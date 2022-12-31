@@ -1,4 +1,9 @@
 {
+	"functions": {
+		"./index.js": {
+			"runtime": "vercel/node"
+		}
+	},
 	"installCommand": "npm install",
 	"public": false,
 	"regions": ["sin1"],
